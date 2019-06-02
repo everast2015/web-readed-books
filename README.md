@@ -3,6 +3,7 @@
 - css 方面的书籍
     - css-secrete 《css 揭秘》
     - graphic-css 《图解css》
+    - exquisite-css 《精妙绝伦的css》
     - html5-css3-anthoritative-guide 《html5+css3 权威指南》
 
 - js 方面的书籍
