@@ -6,4 +6,5 @@
     - html5-css3-anthoritative-guide 《html5+css3 权威指南》
 
 - js 方面的书籍
-    - 
+    - vuejs-combat 《尤雨溪 vuejs实战》
+    - vuejs-component 《vuejs组件精讲》
