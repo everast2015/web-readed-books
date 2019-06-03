@@ -14,3 +14,7 @@
 - `:lang()` 根据元素的`lang` 属性确定的元素
 
 `css2.1` 中的伪元素有：
+- `::first-line`
+- `::first-letter`
+- `::before`
+- `::after`
