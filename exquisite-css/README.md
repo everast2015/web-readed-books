@@ -19,6 +19,7 @@
 - `:nth-child`
 - `:nth-of-type`
 - `:nth-last-of-type`
+- `:first-of-type`
 
 `css2.1` 中的伪元素有：
 - `::first-line`
