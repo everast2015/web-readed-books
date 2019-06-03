@@ -24,6 +24,7 @@
 - `:only-of-type`
 - `:last-child`
 - `:empty`
+- `:not`
 
 `css2.1` 中的伪元素有：
 - `::first-line`
