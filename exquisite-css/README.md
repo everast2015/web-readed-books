@@ -13,6 +13,9 @@
 - `:first-child` --作为其他元素第一个元素的子元素
 - `:lang()` 根据元素的`lang` 属性确定的元素
 
+`css3` 中添加的伪类有：
+
+
 `css2.1` 中的伪元素有：
 - `::first-line`
 - `::first-letter`
