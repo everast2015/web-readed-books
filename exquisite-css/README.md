@@ -25,6 +25,7 @@
 - `:last-child`
 - `:empty`
 - `:not`
+- `:enabled`
 
 `css2.1` 中的伪元素有：
 - `::first-line`
