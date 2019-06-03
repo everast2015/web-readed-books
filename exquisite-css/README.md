@@ -15,6 +15,7 @@
 
 `css3` 中添加的伪类有：
 - `:target`
+- `:root`
 
 `css2.1` 中的伪元素有：
 - `::first-line`
