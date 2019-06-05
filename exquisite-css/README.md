@@ -87,6 +87,10 @@
 
 ```
 <style type="text/css" media="print"></style>
+
+<link media="print" href="print.css">
+
+@import url(print.css) print;
 ```
 
 
