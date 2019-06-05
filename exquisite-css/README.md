@@ -111,4 +111,12 @@ body,#navbar,.warning,.blockquote {
 
 ## 通过背景实现列表标记
 
-
+```
+ul.stars {
+    list-style: none;
+}
+ul.stars li {
+    background: url(star.gif) 0 0 .1em no-repeat;
+    padding-left: 16px;
+}
+```
