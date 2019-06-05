@@ -93,4 +93,13 @@
 @import url(print.css) print;
 ```
 
+打印的时候不打印背景的解决方案：
+
+```
+* {
+    background: transparent;
+    color: black;
+}
+```
+
 
