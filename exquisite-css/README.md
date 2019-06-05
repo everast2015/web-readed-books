@@ -83,4 +83,10 @@
 
 ## 打印样式
 
+打印的图片和输出的样式一致的解决的方案：
+
+```
+<style type="text/css" media="print"></style>
+```
+
 
