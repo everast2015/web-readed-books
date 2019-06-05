@@ -120,3 +120,10 @@ ul.stars li {
     padding-left: 16px;
 }
 ```
+
+## 不可不知的容器
+
+```
+<div class="wrapper">
+</div>
+```
