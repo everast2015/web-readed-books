@@ -104,4 +104,8 @@
 
 或者说是可以列出全部需要调整的样式，像这样。
 
+body,#navbar,.warning,.blockquote {
+    background: transparent;
+    color: black;
+}
 
