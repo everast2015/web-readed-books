@@ -127,3 +127,12 @@ ul.stars li {
 <div class="wrapper">
 </div>
 ```
+
+`css` 样式
+
+```
+body {
+  backgorund: #ABACAB;
+  text-align: center;
+}
+```
