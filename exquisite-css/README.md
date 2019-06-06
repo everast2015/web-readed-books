@@ -144,3 +144,18 @@ body {
 ```
 
 这是个兼容老版本的`IE`的居中设计技术，老版本的`IE` 并不识别靠左右外边距实现自动居中，但却认为文本居中`text-align: center`可以用来居中显示快元素。
+
+我们也可以把之前的规则稍微修改一下：
+
+```
+html {
+  background: #ABACAB;
+  text-align: center;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+```
