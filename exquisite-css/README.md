@@ -219,3 +219,13 @@ div#main {
 
 1. 浮动 + 宽度
 
+```html
+    <div class="cloumns one"></div>
+    <div class="cloumns two"></div>
+    <div class="cloumns three"></div>
+    <div class="footer"></div>
+```
+
+```css
+    
+```
