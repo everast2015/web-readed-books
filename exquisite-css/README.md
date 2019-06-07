@@ -199,11 +199,18 @@ div#main {
 1. 浮动 + 宽度
 
 ```html
-    <div class="sidebar-left">
+    <div class="columns left">
         左边内容
     </div>
-    <div class="sidebar-right">
+    <div class="columns right">
         右边内容
     </div>
 
+```
+
+```css
+    .columns {
+        float: right;
+        width: 50%;
+    }
 ```
