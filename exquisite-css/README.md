@@ -180,3 +180,16 @@ div#main {
 1. 通过溢出遏制浮动
 2. 通过浮动遏制浮动
 3. 清除浮动
+
+代码：
+
+```css
+    .clearfix {
+        display: block;
+        clear: left;
+        font-size: 0;
+        height: 0;
+        visibility: hidden;
+        margin: -0.66em 0;
+    }
+```
