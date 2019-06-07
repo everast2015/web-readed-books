@@ -276,7 +276,7 @@ div#main {
         overflow: auto;
     }
 ```
-
+图片分割符
 ```css
     div.contain {
         width: 960px;
