@@ -132,4 +132,9 @@ ul.stars li {
 
 1. 定宽 + margin
 
-
+```
+div#main {
+    width: 1200px;
+    margin: 0 auto;
+}
+```
