@@ -144,3 +144,5 @@ div#main {
 `text-align: center`
 
 ## 遏制浮动的方法
+
+1. 通过溢出遏制浮动
