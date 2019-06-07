@@ -276,3 +276,12 @@ div#main {
         overflow: auto;
     }
 ```
+
+```css
+    div.contain {
+        width: 960px;
+        margin: 0 auto;
+        overflow: auto;
+        background: url(separation.png) 0 0 repeat-y;
+    }
+```
