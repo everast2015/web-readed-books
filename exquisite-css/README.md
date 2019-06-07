@@ -287,3 +287,17 @@ div#main {
 ```
 
 ## 唯一布局
+
+```html
+    <div class="column one"></div>
+    <div class="column two"></div>
+    <div class="column three"></div>
+```
+
+```css
+    .column {
+        float: left;
+        padding: 0 20px;
+        margin: 0 20px;
+    }
+```
