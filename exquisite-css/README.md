@@ -242,4 +242,9 @@ div#main {
 
 ## 伪造栏布局
 伪造栏`faux column`是解决使用`css` 创建等高栏这一烦人问题的一个古老的解决方案。
-5
+
+```html
+    <div class="cloumns one"></div>
+    <div class="cloumns two"></div>
+    <div class="cloumns three"></div>
+```
