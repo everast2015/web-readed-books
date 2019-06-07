@@ -264,6 +264,15 @@ div#main {
 
 ```html
     <div class="contain">
-    
+        <div class="cloumns one"></div>
+        <div class="cloumns two"></div>
+        <div class="cloumns three"></div>
     </div>
+```
+
+```css
+    div.contain {
+        width: 960px;
+        overflow: auto;
+    }
 ```
