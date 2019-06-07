@@ -300,4 +300,10 @@ div#main {
         padding: 0 20px;
         margin: 0 20px;
     }
+    .two, .three {
+        width: 200px;
+    }
+    .one {
+        width: 300px;
+    }
 ```
