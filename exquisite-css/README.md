@@ -128,7 +128,6 @@ ul.stars li {
 </div>
 ```
 
-<<<<<<< HEAD
 ## 第四章 居中块状框
 
 1. 定宽 + margin
