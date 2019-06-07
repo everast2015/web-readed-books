@@ -195,3 +195,15 @@ div#main {
 ```
 
 ## 简单的两栏布局
+
+1. 浮动 + 宽度
+
+```html
+    <div class="sidebar-left">
+        左边内容
+    </div>
+    <div class="sidebar-right">
+        右边内容
+    </div>
+
+```
