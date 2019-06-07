@@ -248,3 +248,5 @@ div#main {
     <div class="cloumns two"></div>
     <div class="cloumns three"></div>
 ```
+
+能使这个技术起作用的关键是确保各栏具有以像素为单位的宽度值，而已全部都是用像素来定义。
