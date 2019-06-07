@@ -227,5 +227,15 @@ div#main {
 ```
 
 ```css
-    
+    .cloumns {
+        float: left;
+        width: 20%;
+        margin: 0 5%;
+    }
+    .two {
+        width: 30%;
+    }
+    .footer {
+        clear: both;
+    }
 ```
