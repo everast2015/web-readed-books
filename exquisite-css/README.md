@@ -311,3 +311,21 @@ div#main {
 ## 流式漂白布局
 
 假设想拉伸分隔符或者背景使他们等高，但布局是流式的，那么流式漂白布局就非常适合你的
+
+```html
+  <div class="contain">
+    <div class="inner">
+      <div class="cloumn one"></div>
+      <div class="cloumn two"></div>
+      <div class="cloumn three"></div>
+    </div>
+  </div>
+```
+
+```css
+  .cloumn {
+    float: left;
+    width: 20%;
+    margin: 0 5%;
+  }
+```
