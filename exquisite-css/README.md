@@ -331,4 +331,8 @@ div#main {
   .two {
     width: 30%;
   }
+  .inner {
+    background: url(lb01.png) 25% 0 repeat-y;
+    overflow: auto;
+  }
 ```
