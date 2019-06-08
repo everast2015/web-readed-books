@@ -335,4 +335,8 @@ div#main {
     background: url(lb01.png) 25% 0 repeat-y;
     overflow: auto;
   }
+  .contain {
+    background: url(lb02.png) 70% 0 repeat-y;
+    overflow: auto;
+  }
 ```
