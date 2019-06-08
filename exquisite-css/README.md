@@ -328,4 +328,7 @@ div#main {
     width: 20%;
     margin: 0 5%;
   }
+  .two {
+    width: 30%;
+  }
 ```
