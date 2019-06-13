@@ -2,3 +2,12 @@
 
 ## 第二章 半透明边框
 半透明边框代码的实现：
+
+```css
+div {
+      border: 10px solid hsla(0, 0%, 100%, .5);
+      background: white;
+      background-clip: padding-box;
+}
+
+```
