@@ -5,6 +5,7 @@
     - graphic-css 《图解css》
     - exquisite-css 《精妙绝伦的css》
     - html5-css3-anthoritative-guide 《html5+css3 权威指南》
+    - css-authoritive-guide 《css 权威指南》
 
 - js 方面的书籍
     - vuejs-combat 《尤雨溪 vuejs实战》
