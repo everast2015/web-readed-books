@@ -44,3 +44,5 @@ div {
 ![outline](https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/outline.png)
 
 3. 灵活的背景定位
+
+`background-position` 扩展语法方案
