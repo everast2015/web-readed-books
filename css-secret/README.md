@@ -51,7 +51,7 @@ div {
 
 举个栗子，我们想要背景图片距离右边缘保持`20px` 的偏移量，同时跟底边保持`10px`的偏移量，可以这样做。
 
-```
-background: url(code-pirate.svg) no-repeat #58a;
-background-position: right 20px bottom 10px;
+```css
+      background: url(code-pirate.svg) no-repeat #58a;
+      background-position: right 20px bottom 10px;
 ```
