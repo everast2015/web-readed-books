@@ -16,3 +16,10 @@ div {
 2. 多重边框
 
 - `box-shadow` 解决方案
+
+```
+      background: yellowgreen;
+      box-shadow: 0 0 0 10px #655;
+```
+
+不过`box-shadow` 的好处在于，它支持逗号分隔语法，我们可以创建任意数量的投影，
