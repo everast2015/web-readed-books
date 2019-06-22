@@ -50,3 +50,8 @@ div {
 `background-position` 属性已经得到扩展，它允许我们指定背景图片距离任意角的偏移量，只要我们在偏移量前面指定关键字。
 
 举个栗子，我们想要背景图片距离右边缘保持`20px` 的偏移量，同时跟底边保持`10px`的偏移量，可以这样做。
+
+```
+background: url(code-pirate.svg) no-repeat #58a;
+background-position: right 20px bottom 10px;
+```
