@@ -73,3 +73,15 @@ div {
             </div>
       </div>
 ```
+
+```css
+      .something-meaningful {
+            padding: .8em;
+            background: #655;
+      }
+      .something-meaningful > div {
+            padding: 1em;
+            border-radius: .8em;
+            background: tan;
+      }
+```
