@@ -32,3 +32,9 @@ div {
 ![box-shadow](https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/box-shadow.png)
 
 - `outline` 解决方案
+
+```css
+      background: yellowgreen;
+      border: 10px solid #655;
+      outline: 5px solid deeppink;
+```
