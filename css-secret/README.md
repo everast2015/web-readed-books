@@ -55,3 +55,7 @@ div {
       background: url(code-pirate.svg) no-repeat #58a;
       background-position: right 20px bottom 10px;
 ```
+
+效果图：
+
+![outline](https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/background-position.png)
