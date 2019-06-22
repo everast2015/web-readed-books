@@ -8,8 +8,7 @@
     <title>css 揭秘</title>
     <style>
         /* 半透明边框的解决方案 */
-        
-        body {
+        /* body {
             height: 100%;
             background: burlywood;
         }
@@ -18,13 +17,28 @@
             border: 10px solid hsla(0, 0%, 100%, .5);
             background: white;
             background-clip: padding-box;
+        } */
+        /* 2.多重边框 */
+        
+        .container {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+            margin-top: 100px;
+        }
+        
+        .wrapper {
+            background: yellowgreen;
+            box-shadow: 0 0 0 10px #655;
         }
     </style>
 </head>
 
 <body>
-    <div>
-        这里的是内容
+    <div class="container">
+        <div class="wrapper">
+
+        </div>
     </div>
 </body>
 
