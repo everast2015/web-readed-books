@@ -30,3 +30,5 @@ div {
 ```
 
 ![box-shadow](https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/box-shadow.png)
+
+- `outline` 解决方案
