@@ -45,7 +45,7 @@ div {
 
 3. 灵活的背景定位
 
-`background-position` 扩展语法方案
+- `background-position` 扩展语法方案
 
 `background-position` 属性已经得到扩展，它允许我们指定背景图片距离任意角的偏移量，只要我们在偏移量前面指定关键字。
 
@@ -59,3 +59,5 @@ div {
 效果图：
 
 ![outline](https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/background-position.png)
+
+- `calc() 方案` 
