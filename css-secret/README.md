@@ -17,9 +17,14 @@ div {
 
 - `box-shadow` 解决方案
 
-```
+```css
       background: yellowgreen;
       box-shadow: 0 0 0 10px #655;
 ```
 
 不过`box-shadow` 的好处在于，它支持逗号分隔语法，我们可以创建任意数量的投影，因此我们可以非常轻松地在上面的示例中再加上一道`deeppink` 颜色的“边框”：
+
+```css
+       background: yellowgreen;
+      box-shadow: 0 0 0 10px #655, 0 0 0 15px deeppink;
+```
