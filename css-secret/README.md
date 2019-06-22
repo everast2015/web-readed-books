@@ -28,4 +28,5 @@ div {
        background: yellowgreen;
       box-shadow: 0 0 0 10px #655, 0 0 0 15px deeppink;
 ```
-![https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/box-shadow.png](box-shadow)解决方案
+
+![https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/box-shadow.png](box-shadow)
