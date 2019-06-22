@@ -42,3 +42,5 @@ div {
 最后的效果：
 
 ![outline](https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/outline.png)
+
+3. 灵活的背景定位
