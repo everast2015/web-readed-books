@@ -41,6 +41,20 @@
             background-position: calc(100% - 20px) calc(100% - 20px);
             background-size: 50% 50%;
         }
+        /* 内边框圆角，是不是很酷 */
+        
+        .something-meaningful {
+            width: 100px;
+            height: 150px;
+            padding: .8em;
+            background: #655;
+        }
+        
+        .something-meaningful>div {
+            padding: 1em;
+            border-radius: .8em;
+            background: tan;
+        }
     </style>
 </head>
 
@@ -48,6 +62,13 @@
     <div class="container">
         <div class="wrapper">
 
+        </div>
+    </div>
+
+    <!-- 边框内圆角效果 -->
+    <div class="something-meaningful">
+        <div>
+            内边框有圆角，是不是很酷？
         </div>
     </div>
 </body>
