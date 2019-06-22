@@ -28,3 +28,4 @@ div {
        background: yellowgreen;
       box-shadow: 0 0 0 10px #655, 0 0 0 15px deeppink;
 ```
+![http://www.baidu.com](box-shadow)解决方案
