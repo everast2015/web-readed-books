@@ -14,3 +14,5 @@ div {
 `background-clip` 设置元素的背景是否延伸到边框下面
 
 2. 多重边框
+
+- `box-shadow` 解决方案
