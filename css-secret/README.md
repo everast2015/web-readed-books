@@ -60,4 +60,6 @@ div {
 
 ![outline](https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/background-position.png)
 
-- `calc() 方案` 
+- `calc() 方案`
+
+* 注意：请不要在`calc()` 函数内部的 `-` 和 `+` 运算符的两侧各加一个空白符，否则会产生解析错误！这个规则如此怪异，是为了向前兼容：未来，在`calc()` 内部可能会允许使用关键词，而这些关键词可能会含有连字符（即减号）
