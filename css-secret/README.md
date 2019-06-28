@@ -118,6 +118,15 @@ border-radius: 100% 0 0 0;
 </a>
 ```
 
+```css
+      .button {
+            transform: skewX(skewX(-45deg));
+      }
+      .button > div {
+            transform: skewX(45deg);
+      }
+```
+
 3. 菱形图片
 4. 切角效果
 5. 梯形标签页
