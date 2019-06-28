@@ -7,73 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>css 揭秘</title>
     <style>
-        /* 半透明边框的解决方案 */
-        /* body {
-            height: 100%;
-            background: burlywood;
-        }
-        
         div {
-            border: 10px solid hsla(0, 0%, 100%, .5);
-            background: white;
-            background-clip: padding-box;
-        } */
-        /* 2.多重边框 */
-        
-        .container {
-            width: 1000px;
-            margin-top: 100px;
-        }
-        
-        .wrapper {
-            width: 200px;
-            height: 200px;
-            margin: 0 auto;
-            /* background: yellowgreen;
-            box-shadow: 0 0 0 10px #655; */
-            /* outline 解决方案 */
-            /* background: yellowgreen;
-            border: 10px solid #655;
-            outline: 5px solid deeppink; */
-            /* background-position 解决方案 */
-            background: url(./img/bg-position.jpg) no-repeat right bottom #58a;
-            /* background-position: right 20px bottom 10px; */
-            background-position: calc(100% - 20px) calc(100% - 20px);
-            background-size: 50% 50%;
-        }
-        /* 内边框圆角，是不是很酷 */
-        
-        .something-meaningful {
             width: 100px;
-            height: 150px;
-            padding: .8em;
-            background: #655;
-        }
-        
-        .something-meaningful>div {
-            padding: 1em;
-            border-radius: .8em;
-            background: tan;
+            height: 100px;
+            background: skyblue;
+            border-radius: 100% 0 0 0;
         }
     </style>
+    
 </head>
 
 <body>
-    <div class="container">
-        <div class="wrapper">
-
-        </div>
-    </div>
-
-    <!-- 边框内圆角效果 -->
-    <div class="something-meaningful">
-        <div>
-            内边框有圆角，是不是很酷？
-        </div>
-    </div>
-
-    <div style="border-radius: 50% / 100% 100% 0 0;width: 100px;height:100%;background: red;">
-        半椭圆
+    <div>
+        
     </div>
 </body>
 
