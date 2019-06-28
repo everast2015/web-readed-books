@@ -112,6 +112,12 @@ border-radius: 100% 0 0 0;
 
 我们可以在应用一次反向的`skew()`变形，从而抵消容器的变形效果。
 
+```html
+<a href="#" class="button">
+      <div> Click me </div>
+</a>
+```
+
 3. 菱形图片
 4. 切角效果
 5. 梯形标签页
