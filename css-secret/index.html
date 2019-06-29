@@ -8,18 +8,31 @@
     <title>css 揭秘</title>
     <style>
         .button {
+            position: relative;
             display: inline-block;
             width: 100px;
             height: 50px;
             line-height: 50px;
             margin: 50px;
-            background: skyblue;
-            transform: skewX(-45deg);
+            font-size: 14px;
+            color: #fff;
             text-align: center;
+            text-transform: uppercase;
+            text-decoration: none;
+            /* 其他文字颜色，内边距等样式 */
         }
         
-        .button>div {
-            transform: skewX(45deg);
+        .button::before {
+            /* 用伪元素来生成一个矩形 */
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
+            background: #58a;
+            transform: skewX(-45deg);
         }
     </style>
 
@@ -27,7 +40,7 @@
 
 <body>
     <a href="#hello" class="button">
-        <div>Click ME</div>
+        click me
     </a>
 </body>
 
