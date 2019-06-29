@@ -171,9 +171,13 @@ border-radius: 100% 0 0 0;
 
 ```css
       .picture {
-            width: 400px;
+            width: 200px;
             transform: rotate(45deg);
             overflow: hidden;
+      }
+      .picture > img {
+            max-width: 100%;
+            transform: rotate(-45deg) scale(1.42);
       }
 ```
 
