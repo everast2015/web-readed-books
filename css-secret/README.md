@@ -165,8 +165,12 @@ border-radius: 100% 0 0 0;
 
 ```html
       <div class="picture">
-            
+            <img src="./img/bg-position.jpg" alt="icon">
       </div>
+```
+
+```css
+      
 ```
 
 4. 切角效果
