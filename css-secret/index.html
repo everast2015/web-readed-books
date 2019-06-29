@@ -7,20 +7,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>css 揭秘</title>
     <style>
-        div {
+        .button {
+            display: inline-block;
             width: 100px;
-            height: 100px;
+            height: 50px;
+            line-height: 50px;
+            margin: 50px;
             background: skyblue;
-            border-radius: 100% 0 0 0;
+            transform: skewX(-45deg);
+            text-align: center;
+        }
+        
+        .button>div {
+            transform: skewX(45deg);
         }
     </style>
-    
+
 </head>
 
 <body>
-    <div>
-        
-    </div>
+    <a href="#hello" class="button">
+        <div>Click ME</div>
+    </a>
 </body>
 
 </html>
