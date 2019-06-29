@@ -128,7 +128,8 @@ border-radius: 100% 0 0 0;
 ```
 
 最终的效果图：
-![平行四边形]()
+
+![平行四边形](https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/sbx.png)
 
 3. 菱形图片
 4. 切角效果
