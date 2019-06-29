@@ -155,6 +155,7 @@ border-radius: 100% 0 0 0;
       transform: skewX(-45deg);
 }
 ```
+![伪元素方案效果图](https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/other-sbx.png)
 
 3. 菱形图片
 
