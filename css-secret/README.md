@@ -180,6 +180,7 @@ border-radius: 100% 0 0 0;
             transform: rotate(-45deg) scale(1.42);
       }
 ```
+![伪元素方案效果图](https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/lingxing.png.png)
 
 4. 切角效果
 5. 梯形标签页
