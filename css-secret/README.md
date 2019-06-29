@@ -170,7 +170,11 @@ border-radius: 100% 0 0 0;
 ```
 
 ```css
-      
+      .picture {
+            width: 400px;
+            transform: rotate(45deg);
+            overflow: hidden;
+      }
 ```
 
 4. 切角效果
