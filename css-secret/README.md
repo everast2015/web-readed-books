@@ -140,14 +140,19 @@ border-radius: 100% 0 0 0;
 ```css
 .button {
       position: relative;
+      /* 其他文字颜色，内边距等样式 */
 } 
 .button::before {
+      /* 用伪元素来生成一个矩形 */
       content:'';
       position: absolute;
       top: 0;
       right: 0;
       bottom: 0;
       left: 0;
+      z-index: -1;
+      background: #58a;
+      transform: skewX(-45deg);
 }
 ```
 
