@@ -137,6 +137,20 @@ border-radius: 100% 0 0 0;
 
 另一种思路是把所有样式（背景、边框）都应用到伪元素上，然后在对伪元素进行变形，因为我们的伪元素不是包含在伪元素内的，所以内容并不会收到影响。
 
+```css
+.button {
+      position: relative;
+} 
+.button::before {
+      content:'';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+}
+```
+
 3. 菱形图片
 4. 切角效果
 5. 梯形标签页
