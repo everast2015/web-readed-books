@@ -226,6 +226,16 @@ background-repeat: no-repeat;
 
 上代码:
 
+```css
+background: #58a;
+background: radial-gradient(circle at top left, transparent 15px, #58a 0 ) top left,radial-gradient(circle at top right, transparent 15px, #58a 0 ) top right,radial-gradient(circle at bottom left, transparent 15px, #58a 0 ) bottom left,radial-gradient(circle at bottom right, transparent 15px, #58a 0 ) bottom right;
+background-size: 50% 50%;
+background-repeat: no-repeat;
+```
+
+最终效果：
+
+![切角方案效果图](https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/circlefour.png)
 
 
 
