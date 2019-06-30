@@ -217,5 +217,8 @@ background-repeat: no-repeat;
 ![切角方案效果图](https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/fourqiejiao.png)
 
 
+- 弧形切角
+
+
 5. 梯形标签页
 6. 简单的拼图
