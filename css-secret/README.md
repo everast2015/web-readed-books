@@ -204,7 +204,11 @@ border-radius: 100% 0 0 0;
 
 相关代码：
 
+```css
+background: #58a;
+background: linear-gradient(-45deg, transparent 15px, #58a 0);
 
+```
 
 5. 梯形标签页
 6. 简单的拼图
