@@ -297,5 +297,8 @@ background-repeat: no-repeat;
             display: block;
             margin-left: 50%;
             height: 100%;
+            border-radius: 0 100% 100% 0 / 50%;
+            background-color: inherit;
+            transform-origin: left;
       }
 ```

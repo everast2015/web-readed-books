@@ -7,32 +7,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>css 揭秘</title>
     <style>
-        .tab {
-            position: relative;
-            display: inline-block;
-            padding: .5em 1em .35em;
-            margin: 100px;
-            color: white;
+        .pie {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: yellowgreen;
+            background-image: linear-gradient(to right, transparent 50%, #650 0);
         }
         
-        .tab::before {
+        .pie::before {
             content: '';
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            z-index: -1;
-            background: #58a;
-            transform: perspective(.5em) rotateX(5deg);
+            display: block;
+            margin-left: 50%;
+            height: 100%;
         }
     </style>
 
 </head>
 
 <body>
-    <div class="tab">
-        梯形
+    <div class="pie">
+
     </div>
 </body>
 
