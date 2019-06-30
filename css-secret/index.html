@@ -7,21 +7,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>css 揭秘</title>
     <style>
-        .picture {
-            width: 200px;
-            height: 200px;
+        .tab {
+            position: relative;
+            display: inline-block;
+            padding: .5em 1em .35em;
             margin: 100px;
+            color: white;
+        }
+        
+        .tab::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: -1;
             background: #58a;
-            background: radial-gradient(circle at top left, transparent 15px, #58a 0) top left, radial-gradient(circle at top right, transparent 15px, #58a 0) top right, radial-gradient(circle at bottom left, transparent 15px, #58a 0) bottom left, radial-gradient(circle at bottom right, transparent 15px, #58a 0) bottom right;
-            background-size: 50% 50%;
-            background-repeat: no-repeat;
+            transform: perspective(.5em) rotateX(5deg);
         }
     </style>
 
 </head>
 
 <body>
-    <div class="picture">
+    <div class="tab">
+        梯形
     </div>
 </body>
 
