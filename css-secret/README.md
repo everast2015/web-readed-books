@@ -309,3 +309,9 @@ background-repeat: no-repeat;
 ![梯形方案效果图](https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/pie.png)
 
 ## 第四章 视觉效果
+
+1. 单侧阴影
+2. 不规则阴影 
+3. 染色阴影
+4. 毛玻璃效果
+5. 折角效果
