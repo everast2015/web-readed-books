@@ -198,5 +198,7 @@ border-radius: 100% 0 0 0;
 
 ![切角方案效果图](https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/qiejiao.png)
 
+- 两个切角的效果
+
 5. 梯形标签页
 6. 简单的拼图
