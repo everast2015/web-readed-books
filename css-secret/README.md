@@ -246,4 +246,26 @@ background-repeat: no-repeat;
 可以利用2D变形属性可以生成一个梯形
 
 对元素使用了3D变形之后，其内部的变形效果是“不可逆转的”，这一点跟2D变形不同，唯一可行的途径就是把变形效果作用在伪元素上。这有些类似与我们在“平行四边形”一节中生成的平行四边形的方法。
+
+上代码：
+
+```css
+      .tab {
+            position: relative;
+            display: inline-block;
+            padding: .5em 1em .35em;
+            color: white;
+      }
+      .tab::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: #58a;
+            transform: perspective(.5em) rotateX(5deg);
+      }
+
+```
 6. 简单的拼图
