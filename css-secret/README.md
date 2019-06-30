@@ -274,3 +274,5 @@ background-repeat: no-repeat;
 ![梯形方案效果图](https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/tx.png)
 
 6. 简单的拼图
+
+- 基于`transform` 的解决方案
