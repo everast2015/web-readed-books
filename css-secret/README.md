@@ -357,6 +357,7 @@ background-repeat: no-repeat;
 ![梯形方案效果图](https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/side-shadow.png)
 
 2. 不规则阴影 
+不规则阴影目前采用的方法是滤镜的效果
 3. 染色阴影
 4. 毛玻璃效果
 5. 折角效果
