@@ -336,6 +336,12 @@ background-repeat: no-repeat;
       box-shadow: 3px 3px 6px -3px black;
  ```
 
+ 最终效果：
+
+![梯形方案效果图](https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/single-shadow.png)
+
+
+
 2. 不规则阴影 
 3. 染色阴影
 4. 毛玻璃效果
