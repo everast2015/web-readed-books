@@ -323,6 +323,8 @@ background-repeat: no-repeat;
 
 ![梯形方案效果图](https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/shadow.png)
 
+1.2. 邻边投影
+
 2. 不规则阴影 
 3. 染色阴影
 4. 毛玻璃效果
