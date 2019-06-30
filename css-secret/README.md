@@ -290,5 +290,6 @@ background-repeat: no-repeat;
             height: 100px;
             border-radius: 50%;
             background: yellowgreen;
+            background-image: linear-gradient(to right, transparent 50%, #650 0);
       }
 ```
