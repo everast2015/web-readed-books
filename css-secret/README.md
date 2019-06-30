@@ -392,5 +392,10 @@ filter: sepia(1) saturate(4) hue-rotate(295deg);
 
 具体的实现的代码：
 
+```css
+.main {
+      position: relative;
+}
 
+```
 5. 折角效果
