@@ -283,3 +283,12 @@ background-repeat: no-repeat;
       <div class="pie"></div>
 
 ```
+
+```css
+      .pie {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: yellowgreen;
+      }
+```
