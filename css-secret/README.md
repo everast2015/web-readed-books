@@ -206,7 +206,9 @@ border-radius: 100% 0 0 0;
 
 ```css
 background: #58a;
-background: linear-gradient(-45deg, transparent 15px, #58a 0);
+background: linear-gradient(-45deg, transparent 15px, #58a 0) right,linear-gradient(45deg, transparent 15px, #655 0) left;
+background-size: 50% 100%;
+background-repeat: no-repeat;
 
 ```
 
