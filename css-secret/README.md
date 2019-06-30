@@ -292,4 +292,10 @@ background-repeat: no-repeat;
             background: yellowgreen;
             background-image: linear-gradient(to right, transparent 50%, #650 0);
       }
+      .pie::before {
+            content: '';
+            display: block;
+            margin-left: 50%;
+            height: 100%;
+      }
 ```
