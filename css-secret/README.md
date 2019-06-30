@@ -188,5 +188,15 @@ border-radius: 100% 0 0 0;
 
 `css` 渐变，我们只需要一个线性渐变就可以达到目标，这个渐变需要把一个透明色标放在切角处，然后在相同位置设置另一个色标，并把其颜色设置为我们需要的背景色
 
+```css
+      background: #58a;
+      background: linear-gradient(-45deg, transparent 15px, #58a 0);
+
+```
+
+最终效果：
+
+![切角方案效果图](https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/
+qiejiao.png)
 5. 梯形标签页
 6. 简单的拼图
