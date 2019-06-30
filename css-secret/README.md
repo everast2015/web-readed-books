@@ -374,5 +374,11 @@ background-repeat: no-repeat;
 - `saturate()` 滤镜来给每个像素添加饱和度
 - `hue-rotate()` 滤镜，把每个像素的色相以指定的度数进行偏移。
 
+具体的实现的代码：
+
+```
+filter: sepia(1) saturate(4) hue-rotate(295deg);
+```
+
 4. 毛玻璃效果
 5. 折角效果
