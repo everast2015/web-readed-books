@@ -349,7 +349,7 @@ background-repeat: no-repeat;
 具体的实现的代码;
 
 ```css
-      
+      box-shadow: 5px 0 5px -5px black,-5px 0 5px -5px black;
 ```
 
 2. 不规则阴影 
