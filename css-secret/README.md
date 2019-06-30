@@ -396,6 +396,15 @@ filter: sepia(1) saturate(4) hue-rotate(295deg);
 .main {
       position: relative;
 }
+.main::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: rgba(255,0,0,.5); // 仅用于调试
+}
 
 ```
 5. 折角效果
