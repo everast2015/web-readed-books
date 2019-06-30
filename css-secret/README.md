@@ -183,5 +183,8 @@ border-radius: 100% 0 0 0;
 ![伪元素方案效果图](https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/lingxing.png)
 
 4. 切角效果
+
+解决方案：
+
 5. 梯形标签页
 6. 简单的拼图
