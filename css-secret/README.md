@@ -393,8 +393,13 @@ filter: sepia(1) saturate(4) hue-rotate(295deg);
 具体的实现的代码：
 
 ```css
+body(,main::before {
+      background: url(tiger.jpg) 0 / cover fixed;
+}
 .main {
       position: relative;
+      background: hsla(0,0%,100%, .3);
+      overflow: hidden;
 }
 .main::before {
       content: '';
@@ -403,7 +408,8 @@ filter: sepia(1) saturate(4) hue-rotate(295deg);
       right: 0;
       bottom: 0;
       left: 0;
-      background: rgba(255,0,0,.5); // 仅用于调试
+      filter: blur(20px);
+      margin: -30px;
 }
 
 ```
