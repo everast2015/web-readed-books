@@ -276,3 +276,10 @@ background-repeat: no-repeat;
 6. 简单的拼图
 
 - 基于`transform` 的解决方案
+
+上代码：
+
+```html
+      <div class="pie"></div>
+
+```
