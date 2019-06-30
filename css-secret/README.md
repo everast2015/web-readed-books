@@ -298,7 +298,12 @@ background-repeat: no-repeat;
             margin-left: 50%;
             height: 100%;
             border-radius: 0 100% 100% 0 / 50%;
-            background-color: inherit;
+            background: #655;
             transform-origin: left;
+            transform: rotate(.1turn);
       }
 ```
+
+拼图效果图：
+
+![梯形方案效果图](https://github.com/yjn2015/web-readed-books/blob/master/css-secret/img/pie.png)
