@@ -416,3 +416,11 @@ body(,main::before {
 5. 折角效果
 
 - 方法一、45度折角的解决方案
+
+主要的思路：
+  就是使用渐变的方案实现的：
+  ```css
+    background: #58a;
+    background: linear-gradient(-135deg, transparent 2em, #58a 0);
+  
+  ```
