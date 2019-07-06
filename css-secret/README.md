@@ -475,6 +475,12 @@ body(,main::before {
 但是还存在一个问题就是，当你需要给按钮加上真正的边框的时候，会发现按钮的真正边框被我们挪作他用了，怎么办？很简单，可以用内嵌投影来模拟出一道边框
 
 
+```css
+      border: 10px solid transparent;
+      background-clip: padding-box;
+      box-shadow: 0 0 0 1px rgba(0,0,0,.3) inset;
+```
+
 
 
 
