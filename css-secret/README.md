@@ -430,4 +430,9 @@ body(,main::before {
   ## 选用合适的鼠标光标
 
   1. 提示禁用状态
-  
+
+  ```css
+      :disabled,[disabled],[aria-disabled="true"] {
+            cursor: not-allowed;
+      }
+  ```
