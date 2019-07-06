@@ -464,3 +464,5 @@ body(,main::before {
 ```css
       border: 10px solid transparent;
 ```
+
+但是效果却不是很好，它同时让按钮变大了，原因在于背景在默认情况下回蔓延到边框的下层，简单好用的`background-clip`属性可以把背景限制在原本的区域之内。
