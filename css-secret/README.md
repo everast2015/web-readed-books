@@ -467,7 +467,12 @@ body(,main::before {
 
 但是效果却不是很好，它同时让按钮变大了，原因在于背景在默认情况下回蔓延到边框的下层，简单好用的`background-clip`属性可以把背景限制在原本的区域之内。
 
+```css
+      border: 10px solid transparent;
+      background-clip: padding-box;
+```
 
+但是还存在一个问题就是，当你需要给按钮加上真正的边框的时候，会发现按钮的真正边框被我们挪作他用了，怎么办？很简单，可以用内嵌投影来模拟出一道边框
 
 
 
