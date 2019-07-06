@@ -501,6 +501,12 @@ input[type="checkbox"] + lable::before {
       line-height: .65;
 
 }
+
+/* 设置选中的颜色值 */
+input[type="checkbox"]:checked + label::before {
+      content: '\2713';
+      background: yellowgreen;
+}
 ```
 
 
