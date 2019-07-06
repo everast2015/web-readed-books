@@ -491,6 +491,14 @@ body(,main::before {
 ```css
 input[type="checkbox"] + lable::before {
       content: '\a0;'; /* 不换行空格 */
+      display: inline-block;
+      width: .8em;
+      height: .8em;
+      margin-right: .2em;
+      border-radius: .2em;
+      background: silver;
+      text-indent: .15em;
+      line-height: .65;
 
 }
 ```
