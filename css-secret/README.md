@@ -449,3 +449,8 @@ body(,main::before {
   ```
 
   但是现在不需要这样做的了，可以直接使用`cursor: none`;不过为了回退版本，向下兼容，我们可以使用层叠机制来实现这一点。
+
+  ```css
+     cursor: url(transparent.gif);
+     cursor: none;
+  ```
