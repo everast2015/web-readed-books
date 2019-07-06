@@ -483,6 +483,11 @@ body(,main::before {
 
 ## 自定义复选框
 
+```html
+<input type="checkbox" id="awesome"/>
+<label for="awesome">Awesome!</label>
+```
+
 
 
 
