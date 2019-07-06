@@ -529,6 +529,11 @@ input[type="checkbox"] {
       left: 0;
       background: rgba(0,0,0,.8);
 }
+
+.lightbox {
+      position: absolute;
+      z-index:1;
+}
 ```
 
 
