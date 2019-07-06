@@ -520,6 +520,7 @@ input[type="checkbox"] {
 我们需要一层半透明的遮罩层来把后面的一切整体调暗，最常见的方法是添加一个额外的html元素用于遮罩内容，然后为其添加以下样式。
 
 ```css
+/* 用于遮罩背景 */
 .overlay {
       position: fixed;
       top: 0;
