@@ -461,3 +461,6 @@ body(,main::before {
 
 设置一圈透明边框
 
+```css
+      border: 10px solid transparent;
+```
