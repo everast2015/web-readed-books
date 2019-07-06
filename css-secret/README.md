@@ -488,6 +488,13 @@ body(,main::before {
 <label for="awesome">Awesome!</label>
 ```
 
+```css
+input[type="checkbox"] + lable::before {
+      content: '\a0;'; /* 不换行空格 */
+
+}
+```
+
 
 
 
