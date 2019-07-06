@@ -436,3 +436,7 @@ body(,main::before {
             cursor: not-allowed;
       }
   ```
+
+  2. 隐藏鼠标光标
+
+  在`css2.1` 中，隐藏光标也是有可能的，但需要用到一张1x1的透明GIF图片，然后这样做：
