@@ -507,6 +507,9 @@ input[type="checkbox"]:checked + label::before {
       content: '\2713';
       background: yellowgreen;
 }
+
+/* 隐藏原有的元素 */
+
 ```
 
 
