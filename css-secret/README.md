@@ -509,7 +509,10 @@ input[type="checkbox"]:checked + label::before {
 }
 
 /* 隐藏原有的元素 */
-
+input[type="checkbox"] {
+      position: absolute;
+      clip: rect(0,0,0,0);
+}
 ```
 
 
