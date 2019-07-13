@@ -51,8 +51,8 @@ book['main title'] = "ECMASCRIPT";
 
 ### 删除属性
 `delete` 运算符可以删除对象的属性。
-
 ```js
 delete book.author; // book 不再有属性 author
 delete book["main title"]
 ```
+`delete` 运算符只能删除自有属性，不能删除继承属性（要删除继承属性必须是从定义这个属性的原型对象是哪个删除它，而已这会影响到所有继承自这个原型的对象）。
