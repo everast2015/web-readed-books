@@ -59,3 +59,8 @@ delete book["main title"]
 
 ### 检查属性
 判断某个属性是否存在与对象中，可以通过`in` 运算符、`hasOwnPreperty()` 和 `propertyIsEnumerable()` 方法来完成这个工作。
+
+```js
+var o = {x: 1}
+o.hasOwnProperty("x"); // true 0有一个自有属性x
+```
