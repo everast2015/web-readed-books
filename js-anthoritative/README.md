@@ -51,3 +51,8 @@ book['main title'] = "ECMASCRIPT";
 
 ### 删除属性
 `delete` 运算符可以删除对象的属性。
+
+```js
+delete book.author; // book 不再有属性 author
+delete book["main title"]
+```
