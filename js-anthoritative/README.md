@@ -28,3 +28,10 @@ var object = new Object();
 - `Object.create()` 
 
 `ES5` 定义了一个名为`Object.create()` 的方法，它创建了一个新对象，其中第一个参数是这个对象的原型，第二个可选参数，用以对对象的属性进行进一步的描述。
+
+```js
+var o1 = Object.create({
+    x:1,
+    y:1
+});
+```
