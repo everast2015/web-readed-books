@@ -22,3 +22,5 @@ var empty = {}; // 创建一个空的对象
 var object = new Object();
 
 ```
+
+这里的函数称为构造函数`constructor`，构造函数用以初始化一个新创建的对象。
