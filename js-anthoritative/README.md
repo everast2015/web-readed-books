@@ -48,3 +48,5 @@ var title = book['main title'];
 book.author = "you name";
 book['main title'] = "ECMASCRIPT";
 ```
+
+### 删除属性
