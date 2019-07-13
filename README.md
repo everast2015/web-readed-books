@@ -11,3 +11,4 @@
     - vuejs-combat 《尤雨溪 vuejs实战》
     - vuejs-component 《vuejs组件精讲》
     - you-dont-know-JavaScript-1 《你不知道的js上卷》
+    - js-anthoritative 《javascript 权威指南》
