@@ -38,3 +38,8 @@ var o1 = Object.create({
 
 ### 属性的设置和查询
 在`js` 中可以通过点`(.)`或方括号`[]` 运算符来获取对象的属性的值。
+
+```js
+var author = book.author;
+var title = book['main title'];
+```
