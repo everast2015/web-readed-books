@@ -50,3 +50,4 @@ book['main title'] = "ECMASCRIPT";
 ```
 
 ### 删除属性
+`delete` 运算符可以删除对象的属性。
