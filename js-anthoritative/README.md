@@ -65,4 +65,4 @@ var o = {x: 1}
 o.hasOwnProperty("x"); // true 0有一个自有属性x
 o.hasOwnproperty("y"); // false o 不存在自有属性 y
 ```
-![对象]()
+![对象](https://github.com/yjn2015/web-readed-books/blob/master/js-anthoritative/object.png)
