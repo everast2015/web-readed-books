@@ -68,3 +68,10 @@ o.hasOwnproperty("y"); // false o 不存在自有属性 y
 ![对象](https://github.com/yjn2015/web-readed-books/blob/master/js-anthoritative/object.png)
 
 ## 作用域
+
+作用域指一个变量的作用的范围
+
+在`js` 中一共有两种作用域：
+
+1. 全局作用域
+- 直接写在`<script></script>` 标签中的`JS`代码，都在全局作用域。
