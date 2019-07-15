@@ -92,3 +92,5 @@ o.hasOwnproperty("y"); // false o 不存在自有属性 y
 console.log("a= " + a);
 a = 123;
 ```
+
+![报错]()
