@@ -116,3 +116,5 @@ var func3 = function func3() {
     console.log("我是func3函数");
 }
 ```
+
+### 2. 函数作用域
