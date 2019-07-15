@@ -93,4 +93,4 @@ console.log("a= " + a);
 a = 123;
 ```
 
-![报错](https://github.com/yjn2015/web-readed-books/tree/master/js-anthoritative/img/a.png)
+![报错](https://github.com/yjn2015/web-readed-books/blob/master/js-anthoritative/img/a.png)
