@@ -96,3 +96,5 @@ a = 123;
 ![报错](https://github.com/yjn2015/web-readed-books/blob/master/js-anthoritative/img/a.png)
 
 ### 使用函数声明提前
+
+- 使用函数声明形式创建的函数`function 函数(){}`
