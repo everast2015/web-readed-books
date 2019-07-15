@@ -94,3 +94,5 @@ a = 123;
 ```
 
 ![报错](https://github.com/yjn2015/web-readed-books/blob/master/js-anthoritative/img/a.png)
+
+### 使用函数声明提前
