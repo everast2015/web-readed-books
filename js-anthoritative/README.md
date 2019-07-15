@@ -105,7 +105,12 @@ a = 123;
 ```js
 func2();
 
+// 函数声明会被声明提前
 function func2() {
     console.log("我是func2函数");
+}
+
+var func3 = function func3() {
+    console.log("我是func3函数");
 }
 ```
