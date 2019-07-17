@@ -139,3 +139,8 @@ func()
 var arr  = new Array();
 ```
 2. 利用数组字面量创建一个数组
+
+```js
+
+var arr = [];
+```
