@@ -144,3 +144,6 @@ var arr  = new Array();
 
 var arr = [];
 ```
+
+获取数组的方式：
+
