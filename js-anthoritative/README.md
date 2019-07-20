@@ -218,3 +218,5 @@ getSum(1); // NaN
 注意，在`Javascript` 中形参默认值为`undefined`
 
 ## 函数的返回值
+
+1. return 语句
