@@ -246,6 +246,7 @@ var num = 10;
 function func() {
     // 局部作用域，只在函数内部起效果
     var num = 20;
+    num = 30; // 这个变量没有声明就直接赋值，就是全局变量
     console.log(num);
 }
 func();
