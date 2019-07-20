@@ -216,3 +216,5 @@ getSum(1); // NaN
 实参个数小于形参个数 | 多的形参定义为undefined，结果是NaN
 
 注意，在`Javascript` 中形参默认值为`undefined`
+
+## 函数的返回值
