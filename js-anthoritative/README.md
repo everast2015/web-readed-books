@@ -302,7 +302,7 @@ func();
 
 2. 检查是否为数组
 
-`instanceOf` 它可以用来检测是否为数组
+- `instanceOf` 它可以用来检测是否为数组
 
 ```js
 var arr = [];
@@ -310,4 +310,6 @@ var obj = {};
 console.log(arr instanceOf Array);
 console.log(obj instanceOf Array);
 ```
+
+- `Array.isArray()` 确定是否一个值是否是数组
 
