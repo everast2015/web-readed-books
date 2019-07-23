@@ -329,7 +329,11 @@ arr.push(4);
 2. `unshift()`在我们数组的前面，添加一个或者多个数组的元素
 ```js
 var arr = [1,2,3];
-console.log(arr.unshift(4)); // [4,1,2,3]
+arr.unshift(4);
+console.log(arr); // [4,1,2,3]
 ```
+- 可以添加数组的第一个元素
+- 返回的是新添加数组元素
+- 原数组也会发生变化
 
 
