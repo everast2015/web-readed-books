@@ -317,3 +317,11 @@ console.log(obj instanceOf Array);
 
 2. 添加数组元素
 
+- 添加删除数组元素方法
+`push()`在我们数组的末尾，添加一个或者多个数组元素的方法
+
+```js
+var arr = [1,2,3];
+arr.push(4);
+```
+
