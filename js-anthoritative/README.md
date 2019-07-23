@@ -300,4 +300,7 @@ func();
     var arr = new Array();
 ```
 
+2. 检查是否为数组
+
+`instanceOf` 它可以用来检测是否为数组
 
