@@ -324,4 +324,5 @@ console.log(obj instanceOf Array);
 var arr = [1,2,3];
 arr.push(4);
 ```
+`push()`返回的是数组的长度
 
