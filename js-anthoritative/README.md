@@ -313,3 +313,5 @@ console.log(obj instanceOf Array);
 
 - `Array.isArray()` 确定是否一个值是否是数组
 
+如果对象为真，则返回一个`true` 否则返回一个`false`
+
