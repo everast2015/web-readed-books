@@ -315,3 +315,5 @@ console.log(obj instanceOf Array);
 
 如果对象为真，则返回一个`true` 否则返回一个`false`
 
+2. 添加数组元素
+
