@@ -304,3 +304,10 @@ func();
 
 `instanceOf` 它可以用来检测是否为数组
 
+```js
+var arr = [];
+var obj = {};
+console.log(arr instanceOf Array);
+console.log(obj instanceOf Array);
+```
+
